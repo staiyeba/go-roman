@@ -17,7 +17,8 @@ func to_roman(n int) string {
     else if n == 7 {
         return "VII"
     }
-    return "I" // oopsie
+    else
+        return "I" // oopsie
 }
 
 type romanGenerator int
